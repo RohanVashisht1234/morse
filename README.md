@@ -5,7 +5,7 @@
 ## How to dry run:
 
 Please run:
-- `git clone `
+- `git clone https://github.com/RohanVashisht1234/morse.git`
 - `zig build run_example`
 
 ## How to use in your project:
@@ -17,15 +17,15 @@ Run the following in terminal:
 Create a `build.zig.zon` file.
 
 - Enter the following:
-```json
+```zon
 .{
     .name = "my_morse"
     .version = "0.0.0"
     .dependencies = .{
         // morse v0.0.0
         .morse = .{
-            .url = "https://github.com/",
-            .hash = "2352345198349059",
+            .url = "https://github.com/RohanVashisht1234/morse/archive/refs/tags/morse.tar.gz",
+            .hash = "12202c6a33bb65f1f8d5c75631fa49b8f2b98f166df5576fc9729dc50888bb05f761",
         }
     }
 }
