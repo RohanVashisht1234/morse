@@ -19,8 +19,8 @@ Create a `build.zig.zon` file.
 - Enter the following:
 ```zon
 .{
-    .name = "my_morse"
-    .version = "0.0.0"
+    .name = "my_morse",
+    .version = "0.0.0",
     .dependencies = .{
         // morse v0.0.0
         .morse = .{
